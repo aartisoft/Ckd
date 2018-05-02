@@ -4,16 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ckd.calenderkhanado.activities.loginandsignupscreen.LoginAndSignupActivity">
-
-
-    <TextView
-        android:id="@+id/submitButton"
-        android:layout_width="wrap_content"
+    tools:context="com.ckd.calenderkhanado.activities.loginandsignupscreen.LoginAndSignupActivity"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Submit"
-        android:textSize="@dimen/text_size_18"
-        android:textColor="@color/colorPrimary"
-        />
+        android:layout_margin="@dimen/dp24"
+        android:orientation="vertical"
+        android:background="@drawable/white_bg"
+        android:layout_alignParentBottom="true"
+        android:elevation="@dimen/dp4">
 
+        <com.ckd.calenderkhanado.widgets.CkdTextview
+            android:id="@+id/gmail_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gmail_login"
+            android:background="@drawable/black_bg"
+            android:textColor="@color/white"
+            android:padding="@dimen/dp12"
+            android:gravity="center"
+            style="@style/textviewregular"
+            android:layout_marginTop="@dimen/dp24"
+            android:layout_marginStart="@dimen/dp24"
+            android:layout_marginEnd="@dimen/dp24"
+            android:layout_marginBottom="@dimen/dp16"/>
+        <com.ckd.calenderkhanado.widgets.CkdTextview
+            android:id="@+id/mobile_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile_login"
+            android:background="@drawable/black_bg"
+            android:textColor="@color/white"
+            android:padding="@dimen/dp12"
+            android:gravity="center"
+            style="@style/textviewregular"
+            android:layout_marginTop="@dimen/dp16"
+            android:layout_marginStart="@dimen/dp24"
+            android:layout_marginEnd="@dimen/dp24"
+            android:layout_marginBottom="@dimen/dp24"/>
+
+        <com.ckd.calenderkhanado.widgets.CkdTextview
+            android:id="@+id/terms_services"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_services"
+            android:textColor="@color/black"
+            android:gravity="center"
+            style="@style/textviewregular"
+            android:layout_marginStart="@dimen/dp24"
+            android:layout_marginEnd="@dimen/dp24"
+            android:layout_marginBottom="@dimen/dp24"/>
+
+
+    </LinearLayout>
 </RelativeLayout>

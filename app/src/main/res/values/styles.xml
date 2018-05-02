@@ -12,4 +12,16 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="textviewregular" parent="@android:style/Widget.TextView">
+        <item name="font">notosans-regular.ttf</item>
+    </style>
+    <style name="textviewbold">
+        <item name="font">notosans-bold.ttf</item>
+    </style>
+
+    <style name="textviewitalic">
+        <item name="font">notosans-italic.ttf</item>
+    </style>
+
 </resources>

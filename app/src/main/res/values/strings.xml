@@ -10,7 +10,23 @@
     <string name="api_default_error">Something wrong happened!</string>
     <string name="some_error">Some Error Occurred!</string>
     <string name="connection_error">Internet connection lost!</string>
-    <string name="title_activity_login_and_signup">LoginAndSignupActivity</string>
 
+    <!--login screen-->
+    <string name="title_activity_login_and_signup">LoginAndSignupActivity</string>
+    <string name="gmail_login">Continue with Google</string>
+    <string name="mobile_login">Continue with Phone</string>
+    <string name="guest_login">Continue as Guest</string>
+    <string name="terms_services">By Signing Up, I agree to CKS\'s Terms of Service and Privacy Policy</string>
+
+    <!--choose role-->
+    <string name="interest_title">YOU ARE INTERESTED TO</string>
+    <string name="cook">COOK</string>
+    <string name="eat">EAT</string>
+    <string name="next">NEXT</string>
+
+    <!--food type-->
+    <string name="food_type_title">YOU WOULD LIKE TO COOK</string>
+    <string name="veg">PURE VEG</string>
+    <string name="veg_nonveg">VEG + NONVEG</string>
 
 </resources>
