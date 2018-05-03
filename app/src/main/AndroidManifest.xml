@@ -24,7 +24,8 @@
         <activity
             android:name=".activities.mainscreen.MainActivity"
             android:label="@string/title_activity_login_and_signup"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".RateYourselfActivity"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.ckd.calenderkhanado.widgets.CkdTextview
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_txt"
+        style="@style/textviewbold"
+        android:textColor="@color/black"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radio Button 1 "
+            style="@style/textviewregular"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radio Button 2"
+            style="@style/textviewregular"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Radio Button 3"
+            style="@style/textviewregular"/>
+    </RadioGroup>
+
+</LinearLayout>

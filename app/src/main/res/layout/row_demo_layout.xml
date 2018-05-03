@@ -10,7 +10,7 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="TextView"
-      android:layout_marginTop="@dimen/padding_4dp"
+      android:layout_marginTop="@dimen/dp4"
       android:layout_below="@+id/imageView"
       android:gravity="center"
       />
@@ -18,7 +18,7 @@
       android:id="@+id/imageView"
       android:layout_width="200dp"
       android:layout_height="200dp"
-      android:layout_marginTop="@dimen/padding_4dp"
+      android:layout_marginTop="@dimen/dp4"
       app:srcCompat="?android:attr/actionModeCopyDrawable"
       android:layout_alignParentTop="true"
       android:layout_centerInParent="true"

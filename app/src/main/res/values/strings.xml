@@ -29,4 +29,9 @@
     <string name="veg">PURE VEG</string>
     <string name="veg_nonveg">VEG + NONVEG</string>
 
+    <!--rate yourself-->
+    <string name="submit_txt">SUBMIT</string>
+    <string name="rate_yourself_title">HELP US TO KNOW YOU BETTER</string>
+    <string name="question_txt">RATE YOUR COOKING</string>
+
 </resources>
