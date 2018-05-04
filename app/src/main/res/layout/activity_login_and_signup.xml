@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.ckd.calenderkhanado.activities.loginandsignupscreen.LoginAndSignupActivity"
     android:background="@color/colorPrimary">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,6 +31,7 @@
             android:layout_marginEnd="@dimen/dp24"
             android:layout_marginBottom="@dimen/dp16"/>
         <com.ckd.calenderkhanado.widgets.CkdTextview
+            android:elevation="@dimen/dp4"
             android:id="@+id/mobile_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
